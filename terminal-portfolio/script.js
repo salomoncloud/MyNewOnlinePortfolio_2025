@@ -94,7 +94,7 @@ $(function() {
       }
     }, {
       greetings: "Welcome to my terminal! To list available commands type help",
-      prompt: '$ ',
+      prompt: 'youwillh1re@Salomon$ ',
       name: 'salomon_terminal'
     });
   });
