@@ -25,9 +25,13 @@ document.addEventListener('DOMContentLoaded', function() {
       },
       joke: function() {
         const jokes = [
-          "Why do programmers prefer dark mode? Because light attracts bugs!",
+          "A TCP packet walks into a bar and asks for a beer, the bartender replies: 'you want a beer?', TCP replies, 'yes, a beer.'",
+          "Whats Tom Hanks' password? 1forrest1!",
           "A SQL query walks into a bar, approaches two tables, and asks: 'Can I join you?'",
-          "There are 10 types of people in the world: those who understand binary and those who don't."
+          "There are 10 types of people in the world: those who understand binary and those who don't.",
+          "Failure is not an option -- it comes bundled with Windows.",
+          "Alibaba cloud. Thats it. Thats the joke.",
+          "Microsoft gives you Windows... Linux gives you the whole house."
         ];
         return jokes[Math.floor(Math.random() * jokes.length)];
       },
