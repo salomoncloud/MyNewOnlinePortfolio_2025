@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
   qualifications, experience, techskills, softskills, contact`;
       },
       whoami: function() {
-        return `I am Salomon – a passionate developer with experience in building interactive web experiences. (Update with your own bio)`;
+        return `Hi There! I'm Salomon – a passionate technologist with experience in building interactive web experiences via the cloud, as well as a seasoned IT professional with Data Center and Networking specialization.`;
       },
       joke: function() {
         const jokes = [
@@ -37,9 +37,12 @@ document.addEventListener('DOMContentLoaded', function() {
       },
       qualifications: function() {
         return `Certifications and Diplomas:
-  - Certification A
-  - Certification B
-  - Diploma in XYZ (Update with your details)`;
+  - AWS Solutions Architect Associate
+  - AWS Cloud Practitioner
+  - Azure Administrator 104
+  - Azure Foundationals 900
+  - DEP Telecommunications Installation and Repair from Pearson Electrotechnology Centre
+  - AEC Cloud Computing and Networking Support from MCIT`;
       },
       experience: function() {
         return `Past Jobs:
