@@ -1,10 +1,42 @@
 body {
-    background-color: black;
-    color: green;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #33FF33;
     font-family: monospace;
-    padding: 20px;
+    font-size: 1em;
 }
 
-#terminal {
+.terminal {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #333;
+    background-color: #000;
+}
+
+.output {
+    min-height: 300px;
+    margin-bottom: 10px;
     white-space: pre-wrap;
 }
+
+.input-line {
+    display: flex;
+    align-items: center;
+}
+
+.prompt {
+    margin-right: 5px;
+}
+
+#cmdline {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    width: 100%;
+}
+
