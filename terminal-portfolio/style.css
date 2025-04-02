@@ -1,1 +1,10 @@
+body {
+    background-color: black;
+    color: green;
+    font-family: monospace;
+    padding: 20px;
+}
 
+#terminal {
+    white-space: pre-wrap;
+}
