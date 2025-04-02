@@ -5,4 +5,5 @@ The idea here is to create once again a static website that I will be hosting on
 
 Below I have attached the architecture of this basic and straightforward website.
 -
-![portfolio project](https://github.com/user-attachments/assets/0151d7dc-a2b5-4623-a3c2-61431834f3cb)
+
+[portfolio project.pdf](https://github.com/user-attachments/files/19559483/portfolio.project.pdf)
