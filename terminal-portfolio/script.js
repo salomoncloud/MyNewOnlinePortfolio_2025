@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function() {
       },
       contact: function() {
         return `Contact:
-  Email: salomon@example.com (Update with your email)`;
+  Email: salomon.cloud.dev@gmail.com`;
       },
       cd: function(args) {
         if (args && args.length > 0) {
