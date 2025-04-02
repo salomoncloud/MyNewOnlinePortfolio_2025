@@ -18,7 +18,7 @@ $(function() {
     qualified, experience, techskills, softskills, contact`;
       },
       whoami: function() {
-        return `Hi There! I'm Salomon – a passionate technologist with experience in building interactive web experiences via the cloud, and a seasoned IT professional with Data Center and Networking specialization.`;
+        return `Hi There! I'm Salomon – a passionate technologist with experience in building interactive web experiences via the cloud, and a seasoned IT professional with Data Center and Networking specialization. Outside of work, I'm a hockey fan, love music and movies, and I'm known in my group of friends to enjoy a good laugh!`;
       },
       joke: function() {
         const jokes = [
