@@ -19,7 +19,7 @@ $(function() {
     qualified, experience, techskills, softskills, contact`;
       },
       whoami: function() {
-        return `Hi There! I'm Salomon an experienced professional in cloud computing as well as with Data Center and Networking specialization. Outside of work, I am a proud father and husband, sports and music fan, and my friends know me for always enjoying a good laugh!`;
+        return `Hi There! I'm Salomon an experienced professional in cloud computing as well as with Data Center and Networking specialization. Outside of work, I am a proud father and husband, sports and music fan, and my friends know me for always enjoying a good laugh! This website was designed using JQuery, CSS and HTML. The infrastructure is based on Azure, using Terraform IaC capabilities. All of this is deployed via Github, allowing me to implement CI/CD best practices.`;
       },
       joke: function() {
         const jokes = [
@@ -63,7 +63,8 @@ $(function() {
       contact: function() {
         return `Contact:
     Email: salomon.cloud.dev@gmail.com
-    Linkedin: <a href="https://www.linkedin.com/in/salomon-fritz-lubin-504a1a1ab/" target="_blank">My LinkedIn Profile</a>`;
+    Linkedin: <a href="https://www.linkedin.com/in/salomon-fritz-lubin-504a1a1ab/" target="_blank">My LinkedIn Profile!</a>
+    GitHub repo for this project: <a href="https://github.com/salomoncloud/MyNewOnlinePortfolio_2025" target="_blank">How this is built!</a>`;
       },
       cd: function(args, term) {
         if (args.length > 0) {
@@ -100,7 +101,7 @@ $(function() {
         }
       }
     }, {
-      greetings: "Welcome to my terminal! To list available commands type help. This website was designed using JQuery, CSS and HTML, and the infrastructure on Azure using Terraform IaC capabilities. All of this is deployed via Github, allowing me to implement CI/CD best practices.",
+      greetings: "Welcome to my terminal! To list available commands type help.",
       prompt: 'youwillhire@Salomon:/$ ',
       name: 'salomon_terminal'
     });
