@@ -60,11 +60,12 @@ document.addEventListener('DOMContentLoaded', function() {
       },
       softskills: function() {
         return `Soft Skills:
-  - Communication, teamwork, problem-solving (Update with your skills)`;
+  - Communication, teamwork, problem-solving, accountability, curiosity, and last but not least - leadership.`;
       },
       contact: function() {
         return `Contact:
-  Email: salomon.cloud.dev@gmail.com`;
+  Email: salomon.cloud.dev@gmail.com
+  Linkedin: <a href="https://www.linkedin.com/in/salomon-fritz-lubin-504a1a1ab/" target="_blank">My LinkedIn Profile</a>`;
       },
       cd: function(args) {
         if (args && args.length > 0) {
