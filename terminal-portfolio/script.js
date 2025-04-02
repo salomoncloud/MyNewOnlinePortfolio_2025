@@ -100,7 +100,7 @@ $(function() {
         }
       }
     }, {
-      greetings: "Welcome to my terminal! To list available commands type help",
+      greetings: "Welcome to my terminal! To list available commands type help. This website was designed using JQuery, CSS and HTML, and the infrastructure on Azure using Terraform IaC capabilities. All of this is deployed via Github, allowing me to implement CI/CD best practices.",
       prompt: 'youwillhire@Salomon:/$ ',
       name: 'salomon_terminal'
     });
