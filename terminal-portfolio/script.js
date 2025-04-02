@@ -5,20 +5,21 @@ $(function() {
         return `Available commands:
     ls           : list all directories
     cd <dir>     : change directory to view sections
-    whoami       : brief description of who I am
+    whoami       : brief description of Salomon
     joke         : tells you a joke
     qualified    : lists my certifications and diplomas
     experience   : lists my past jobs 
     techskills   : lists my technical strengths
     softskills   : lists my soft skills
-    contact      : gives you my email and Linkedin page`;
+    contact      : gives you my email
+    clear        : clears the terminal`;
       },
       ls: function() {
         return `Directories:
     qualified, experience, techskills, softskills, contact`;
       },
       whoami: function() {
-        return `Hi There! I'm Salomon – a passionate technologist with experience in building interactive web experiences via the cloud, and a seasoned IT professional with Data Center and Networking specialization. Outside of work, I'm a hockey fan, love music and movies, and I'm known in my group of friends to enjoy a good laugh!`;
+        return `Hi There! I'm Salomon – a passionate technologist with experience in building interactive web experiences via the cloud, as well as a seasoned IT professional with Data Center and Networking specialization.`;
       },
       joke: function() {
         const jokes = [
@@ -83,6 +84,12 @@ $(function() {
       if (command !== '') {
         let args = command.split(' ');
         let cmd = args.shift().toLowerCase();
+  
+        // Add clear command handling
+        if (cmd === 'clear') {
+          term.clear();
+          return;
+        }
   
         if (cmd === 'cd') {
           commands.cd(args, term);
