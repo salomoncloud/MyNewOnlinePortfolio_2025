@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const commands = {
       help: function() {
         return `Available commands:
-  ls -a        : list all directories
+  ls           : list all directories
   cd           : change directory to view sections (usage: cd <directory>)
   whoami       : brief description of Salomon
   joke         : tells you a joke
@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
   softskills   : lists my soft skills
   contact      : gives you my email`;
       },
-      'ls -a': function() {
+      'ls': function() {
         return `Directories:
   qualified, experience, techskills, softskills, contact`;
       },
@@ -42,16 +42,21 @@ document.addEventListener('DOMContentLoaded', function() {
   - Azure Administrator 104
   - Azure Foundationals 900
   - DEP Telecommunications Installation and Repair from Pearson Electrotechnology Centre
-  - AEC Cloud Computing and Networking Support from MCIT`;
+  - AEC Cloud Computing and Networking Support from MCIT
+  - DES High School Diploma from Rosemount High School`;
       },
       experience: function() {
         return `Past Jobs:
-  - Job A at Company X
-  - Job B at Company Y (Update with your actual experience)`;
+  - Cloud Administrator at CGI, focused on cloud solutions built on AWS and Azure
+  - Network Technician at Rogers, helped support, optimize and deliver Canada's most reliable, high performance wireless network
+  - Data Center Technician at Cologix, provided remote hands support for enterprises as well as regular maintenance of IT equipment and facility operations`;
       },
       techskills: function() {
         return `Technical Skills:
-  - HTML, CSS, JavaScript, and more (Update with your skills)`;
+  - Cloud computing expertise on Azure and AWS, as well as some experience on GCP - specialized in Compute and FinOps.
+  - Over 5 years of experience in Networking (WAN experience at Rogers, LAN experience at Cologix) including Fiber optics, Cisco equipment, and more.
+  - Hardware experience working on computers, servers, cabling, CCTV and more - both on the job and personal projects.
+  - Web development basics including HTML, CSS, JavaScript.`;
       },
       softskills: function() {
         return `Soft Skills:
