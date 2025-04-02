@@ -1,41 +1,14 @@
+:root {
+    --color: #33FF33;         /* Terminal text color */
+    --background: #000;        /* Terminal background */
+    --font: monospace;
+    --animation: terminal-blink;
+}
+
 body {
     margin: 0;
     padding: 0;
-    background-color: #000;
-    color: #33FF33;
-    font-family: monospace;
-    font-size: 1em;
-}
-
-.terminal {
-    max-width: 800px;
-    margin: 50px auto;
-    padding: 20px;
-    border: 1px solid #333;
-    background-color: #000;
-}
-
-.output {
-    min-height: 300px;
-    margin-bottom: 10px;
-    white-space: pre-wrap;
-}
-
-.input-line {
-    display: flex;
-    align-items: center;
-}
-
-.prompt {
-    margin-right: 5px;
-}
-
-#cmdline {
-    background: transparent;
-    border: none;
-    outline: none;
-    color: inherit;
-    font-family: inherit;
-    font-size: inherit;
-    width: 100%;
+    background: var(--background);
+    color: var(--color);
+    font-family: var(--font);
 }

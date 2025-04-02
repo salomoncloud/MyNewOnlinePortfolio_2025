@@ -4,18 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Salomon's Terminal</title>
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- jQuery Terminal CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery.terminal/2.30.1/css/jquery.terminal.min.css" rel="stylesheet">
+  <!-- Custom CSS (if you want additional styling) -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="terminal">
-    <div id="output" class="output">
-      <p>Welcome to my terminal! To list available commands type help</p>
-    </div>
-    <div class="input-line">
-      <span class="prompt">$</span>
-      <input type="text" id="cmdline" autofocus autocomplete="off">
-    </div>
-  </div>
+  <!-- Terminal container -->
+  <div id="terminal"></div>
+
+  <!-- jQuery Terminal JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.terminal/2.30.1/js/jquery.terminal.min.js"></script>
+  <!-- Your custom JS -->
   <script src="script.js"></script>
 </body>
 </html>
+
