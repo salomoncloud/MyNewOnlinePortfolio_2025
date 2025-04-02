@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
   cd           : change directory to view sections (usage: cd <directory>)
   whoami       : brief description of Salomon
   joke         : tells you a joke
-  qualifications: lists my certifications and diplomas
+  qualified    : lists my certifications and diplomas
   experience   : lists my past jobs 
   techskills   : lists my technical strengths
   softskills   : lists my soft skills
@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
       },
       'ls -a': function() {
         return `Directories:
-  qualifications, experience, techskills, softskills, contact`;
+  qualified, experience, techskills, softskills, contact`;
       },
       whoami: function() {
         return `Hi There! I'm Salomon – a passionate technologist with experience in building interactive web experiences via the cloud, as well as a seasoned IT professional with Data Center and Networking specialization.`;
@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
         ];
         return jokes[Math.floor(Math.random() * jokes.length)];
       },
-      qualifications: function() {
+      qualified: function() {
         return `Certifications and Diplomas:
   - AWS Solutions Architect Associate
   - AWS Cloud Practitioner
