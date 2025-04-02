@@ -63,8 +63,8 @@ $(function() {
       contact: function() {
         return `Contact:
     Email: salomon.cloud.dev@gmail.com
-    Linkedin: <a href="https://www.linkedin.com/in/salomon-fritz-lubin-504a1a1ab/" target="_blank">My LinkedIn Profile!</a>
-    GitHub repo for this project: <a href="https://github.com/salomoncloud/MyNewOnlinePortfolio_2025" target="_blank">How this is built!</a>`;
+    Linkedin: https://www.linkedin.com/in/salomon-fritz-lubin-504a1a1ab/
+    GitHub repo for this project: https://github.com/salomoncloud/MyNewOnlinePortfolio_2025`;
       },
       cd: function(args, term) {
         if (args.length > 0) {
