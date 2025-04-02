@@ -5,13 +5,13 @@ $(function() {
         return `Available commands:
     ls           : list all directories
     cd <dir>     : change directory to view sections
-    whoami       : brief description of Salomon
+    whoami       : brief description of who I am
     joke         : tells you a joke
     qualified    : lists my certifications and diplomas
     experience   : lists my past jobs 
     techskills   : lists my technical strengths
     softskills   : lists my soft skills
-    contact      : gives you my email`;
+    contact      : gives you my email and Linkedin page`;
       },
       ls: function() {
         return `Directories:
