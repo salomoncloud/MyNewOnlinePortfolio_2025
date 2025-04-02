@@ -23,3 +23,8 @@ variable "resource_group_name" {
   type = string
   default = "Terminal_Portfolio"
 }
+
+variable "storage_account_name" {
+  type = string
+  default = "TerminalStorage"
+}
