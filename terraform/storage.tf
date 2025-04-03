@@ -13,11 +13,17 @@ resource "azurerm_storage_account" "storage_account" {
   }
 }
 
-resource "azurerm_storage_blob" "Terminal_Portfolio_blob" {
-  name                   = "index.html"
+resource "azurerm_storage_blob" "website_files" {
+  for_each = local.website_files
+
+  name                   = each.key
   storage_account_name   = azurerm_storage_account.storage_account.name
   storage_container_name = "$web"
   type                   = "Block"
-  content_type           = "text/html"
-  source                 = "index.html"
+  content_type           = lookup({
+    "index.html" = "text/html",
+    "style.css"  = "text/css",
+    "script.js"  = "application/javascript"
+  }, each.key, "application/octet-stream")
+  source                 = each.value
 }
