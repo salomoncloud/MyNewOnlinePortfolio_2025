@@ -6,7 +6,7 @@ $(function() {
     ls           : list all directories
     cd <dir>     : change directory to view sections
     whoami       : brief description of Salomon
-    joke         : tells you a new joke everytime, at random
+    joke         : tells you a joke at random
     qualified    : lists my certifications and diplomas
     experience   : lists my past jobs 
     techskills   : lists my technical strengths
