@@ -19,7 +19,7 @@ $(function() {
     qualified, experience, techskills, softskills, contact`;
       },
       whoami: function() {
-        return `Hi There! I'm Salomon an experienced professional in cloud computing as well as with Data Center and Networking specialization. Outside of work, I am a proud father and husband, sports and music fan, and my friends know me for always enjoying a good laugh! This website was designed using JQuery, CSS and HTML. The infrastructure is based on Azure, using Terraform IaC capabilities. All of this is deployed via Github, allowing me to implement CI/CD best practices.`;
+        return `Hi There! I'm Salomon, an experienced professional in cloud computing as well as with Data Center and Networking specialization. Outside of work, I am a proud father and husband, sports and music fan, and my friends know me for always enjoying a good laugh! This website was designed using JQuery, CSS and HTML. The infrastructure is based on Azure, using Terraform IaC capabilities. All of this is deployed via Github, allowing me to implement CI/CD best practices.`;
       },
       joke: function() {
         const jokes = [
