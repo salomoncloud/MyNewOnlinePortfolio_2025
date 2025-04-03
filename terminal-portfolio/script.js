@@ -6,7 +6,7 @@ $(function() {
     ls           : list all directories
     cd <dir>     : change directory to view sections
     whoami       : brief description of Salomon
-    joke         : tells you a joke
+    joke         : tells you a new joke everytime
     qualified    : lists my certifications and diplomas
     experience   : lists my past jobs 
     techskills   : lists my technical strengths
@@ -29,7 +29,9 @@ $(function() {
           "There are 10 types of people in the world: those who understand binary and those who don't.",
           "Failure is not an option -- it comes bundled with Windows.",
           "Alibaba Cloud. That's it. That's the joke.",
-          "Microsoft gives you Windows... Linux gives you the whole house."
+          "Microsoft gives you Windows... Linux gives you the whole house.",
+          "If you give a man a fish, he will eat for a day. If you teach a man to phish, he will spam you for the rest of his life.",
+          "Has anybody seen the cybersecurity team? I heard they ran-som-ware"
         ];
         return jokes[Math.floor(Math.random() * jokes.length)];
       },
