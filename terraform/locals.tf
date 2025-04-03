@@ -1,7 +1,7 @@
 locals {
   website_files = {
-    "index.html" = "index.html"
-    "style.css"  = "style.css"
-    "script.js"  = "script.js"
+    "index.html" = "/terminal-portfolio/index.html"
+    "style.css"  = "/terminal-portfolio/style.css"
+    "script.js"  = "/terminal-portfolio/script.js"
   }
 }
