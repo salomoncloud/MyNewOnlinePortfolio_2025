@@ -4,7 +4,7 @@ resource "azurerm_cdn_profile" "cdn_profile" {
   location            = var.cdn_location
   sku                 = "Standard_Microsoft"
 }
-/*
+
 resource "azurerm_cdn_endpoint" "cdn_endpoint" {
   name                = var.cdn_endpoint_name
   resource_group_name = var.resource_group_name
