@@ -39,6 +39,7 @@ variable "cdn_profile_name" {
 }
 variable "cdn_endpoint_name " {
   type = string
+  default = "salomoncdn"
 }
 
 variable "custom_domain" {
