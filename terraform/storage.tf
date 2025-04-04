@@ -13,6 +13,7 @@ resource "azurerm_storage_account" "storage_account" {
   }
 }
 
+
 resource "azurerm_storage_blob" "website_files" {
   for_each = local.website_files
 
@@ -24,14 +25,15 @@ resource "azurerm_storage_blob" "website_files" {
     "index.html" = "text/html",
     "style.css"  = "text/css",
     "script.js"  = "application/javascript"
+    # Add additional mappings as needed
   }, each.key, "application/octet-stream")
   source                 = each.value
 }
 
 locals {
   website_files = {
-    "index.html" = "/terminal-portfolio/index.html"
-    "style.css"  = "/terminal-portfolio/style.css"
-    "script.js"  = "/terminal-portfolio/script.js"
+    "index.html" = "index.html"
+    "style.css"  = "style.css"
+    "script.js"  = "script.js"
   }
 }
