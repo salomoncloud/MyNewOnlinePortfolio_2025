@@ -7,3 +7,5 @@ Below I have attached the architecture of this basic and straightforward website
 -
 
 [portfolio project.pdf](https://github.com/user-attachments/files/19559483/portfolio.project.pdf)
+
+I tried to keep everything in Terraform but was running into roadblocks for the CDN set up on Azure (its a little weird on Azure, and yes I tried GPT) so the networking aspect was built via the console for ease.

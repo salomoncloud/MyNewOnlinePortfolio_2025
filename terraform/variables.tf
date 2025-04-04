@@ -28,27 +28,3 @@ variable "storage_account_name" {
   type = string
   default = "salomonterminal"
 }
-
-variable "cdn_location" {
-  type = string
-  default = "East US"
-}
-
-variable "cdn_profile_name" {
-  type = string
-  default = "_salomon_"
-}
-variable "cdn_endpoint_name" {
-  type = string
-  default = "_salomon514cdn"
-}
-
-variable "custom_domain" {
-  type = string
-  default = "www.salomon.it.com"
-}
-
-variable "custom_domain_resource_name" {
-  type = string
-  default = "salomonit"
-}
