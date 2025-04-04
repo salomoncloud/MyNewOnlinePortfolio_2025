@@ -27,3 +27,11 @@ resource "azurerm_storage_blob" "website_files" {
   }, each.key, "application/octet-stream")
   source                 = each.value
 }
+
+locals {
+  website_files = {
+    "index.html" = "/terminal-portfolio/index.html"
+    "style.css"  = "/terminal-portfolio/style.css"
+    "script.js"  = "/terminal-portfolio/script.js"
+  }
+}
