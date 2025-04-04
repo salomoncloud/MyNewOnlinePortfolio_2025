@@ -29,4 +29,3 @@ resource "azurerm_cdn_custom_domain" "custom_domain" {
     certificate_source = "CdnManagedCertificate"
   }
 }
-
