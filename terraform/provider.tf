@@ -1,12 +1,16 @@
-terraform{
-  required_providers{
-    azurerm={
-      source="hashicorp/azurerm"
-      version= ">=3.70.0"#this version is for azurerm, NOT terraform version
+terraform {
+  required_providers {
+    azurerm = {
+      source  = "hashicorp/azurerm"
+      version = ">= 3.62.0"
     }
   }
-  required_version=">=1.4.0"#this version is for Terraform Version, NOT azurerm
 }
+
+provider "azurerm" {
+  features {}
+}
+
 
 provider "azurerm"{
   features{}
