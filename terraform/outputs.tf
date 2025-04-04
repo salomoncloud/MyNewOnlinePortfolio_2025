@@ -12,5 +12,5 @@ output "primary_web_host" {
 
 output "cdn_endpoint_hostname" {
   value       = azurerm_cdn_endpoint.cdn_endpoint.host_name
-  description = "The hostname of the CDN endpoint."
+  description = "The hostname of the Azure CDN endpoint"
 }
