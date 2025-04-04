@@ -37,7 +37,7 @@ variable "cdn_location" {
 variable "cdn_profile_name" {
   type = string
 }
-variable "cdn_endpoint_name " {
+variable "cdn_endpoint_name" {
   type = string
   default = "_salomon514cdn"
 }
