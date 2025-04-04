@@ -13,13 +13,13 @@ resource "azurerm_cdn_endpoint" "cdn_endpoint" {
 
   origin {
     name      = "storage-origin"
-    host_name = azurerm_storage_account.storage_account.primary_web_endpoint
-    //The primary_web_endpoint property should return the static website URL, such as "myaccount.z6.web.core.windows.net"
+    # Remove the protocol (https://) from the primary web endpoint so that only the hostname is used.
+    host_name = replace(azurerm_storage_account.storage_account.primary_web_endpoint, "https://", "")
   }
 }
 
 resource "azurerm_cdn_custom_domain" "custom_domain" {
-  name                = var.custom_domain_resource_name
+  name                = var.cdn_custom_domain_resource_name
   resource_group_name = var.resource_group_name
   profile_name        = azurerm_cdn_profile.cdn_profile.name
   endpoint_name       = azurerm_cdn_endpoint.cdn_endpoint.name
