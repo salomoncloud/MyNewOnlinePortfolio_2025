@@ -47,6 +47,7 @@ $(function() {
       },
       experience: function() {
         return `Past Jobs:
+    - Network Engineer at Adaptiv Networks, supporting end-to-end cloud native and sase network architectures 
     - Cloud Administrator at CGI, focused on cloud solutions built on AWS and Azure
     - Network Technician at Rogers, helped support, optimize and deliver Canada's most reliable, high performance wireless network
     - Data Center Technician at Cologix, provided remote hands support for enterprises as well as regular maintenance of IT equipment and facility operations`;
@@ -56,7 +57,8 @@ $(function() {
     - Cloud computing expertise on Azure and AWS, as well as some experience on GCP - specialized in Compute and FinOps.
     - Over 5 years of experience in Networking (WAN at Rogers, LAN at Cologix) including Fiber optics, Cisco equipment, and more.
     - Hardware experience working on computers, servers, cabling, CCTV and more.
-    - Web development basics including HTML, CSS, JavaScript.`;
+    - Web development basics including HTML, CSS, JavaScript.
+    - Networking enthusiast, with multiple home lab environments both physical and containerized`;
       },
       softskills: function() {
         return `Soft Skills:
